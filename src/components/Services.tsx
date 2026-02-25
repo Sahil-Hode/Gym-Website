@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import type { Variants } from 'framer-motion';
 import { Activity, BatteryCharging, Cpu, HardDrive, Layers, Workflow } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -41,12 +42,12 @@ export default function ServicesPage() {
   ];
 
   // Animation variants for alternating directions
-  const slideInLeft = {
+  const slideInLeft: Variants = {
     hidden: { opacity: 0, x: -100 },
     visible: { opacity: 1, x: 0, transition: { duration: 0.8, ease: "easeOut" } }
   };
 
-  const slideInRight = {
+  const slideInRight: Variants = {
     hidden: { opacity: 0, x: 100 },
     visible: { opacity: 1, x: 0, transition: { duration: 0.8, ease: "easeOut" } }
   };
