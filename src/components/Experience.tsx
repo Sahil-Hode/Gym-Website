@@ -6,12 +6,12 @@ export default function Experience() {
     { 
       title: "Elite Equipment", 
       icon: <Dumbbell className="text-[#39FF14]" size={28} />, 
-      desc: "Access top-tier biomechanically engineered machines designed for maximum muscle engagement." 
+      desc: "Use premium biomechanically engineered machines built for maximum muscle engagement." 
     },
     { 
       title: "Expert Coaching", 
       icon: <ShieldCheck className="text-[#39FF14]" size={28} />, 
-      desc: "Our trainers are world-class professionals dedicated to your safety, form, and results." 
+      desc: "Our trainers are highly experienced professionals focused on your safety, form, and results." 
     },
     { 
       title: "24/7 Access", 
@@ -30,8 +30,8 @@ export default function Experience() {
           </h2>
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
             <p className="text-zinc-500 max-w-md text-lg leading-relaxed">
-              Futuristic, bold, and designed for your ultimate transformation. 
-              We provide the tools, you provide the sweat.
+              Bold, focused, and built for your full transformation.
+              We provide the system, you put in the hard work.
             </p>
             <div className="hidden md:block h-[1px] bg-zinc-800 flex-grow ml-12 mb-4" />
           </div>

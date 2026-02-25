@@ -15,7 +15,7 @@ export default function ServicesPage() {
     },
     {
       title: "Neuro-Recovery",
-      desc: "Advanced recovery protocols designed to reset your central nervous system.",
+      desc: "Advanced recovery protocols designed to reset your central nervous system properly.",
       icon: <BatteryCharging size={28} />,
     },
     {
@@ -75,7 +75,7 @@ export default function ServicesPage() {
               Integrated <br /> <span className="text-[#39FF14]">Precision</span>
             </motion.h1>
             <p className="text-zinc-500 max-w-xl text-lg leading-relaxed mx-auto lg:mx-0">
-              We leverage the technical expertise of Innovox Software Solutions to bridge the gap between biological potential and digital analysis.
+              We use the technical expertise of Innovox Software Solutions to bridge the gap between physical potential and digital analysis.
             </p>
           </div>
 
