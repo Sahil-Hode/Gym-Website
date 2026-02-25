@@ -40,14 +40,14 @@ export default function About() {
               The Innovox Philosophy
             </span>
             <h2 className="text-4xl md:text-7xl font-black italic uppercase tracking-tighter leading-[0.9] mb-8">
-              Engineered <br /> For <span className="text-[#39FF14]">Superiority</span>
+              Engineered <br /> For <span className="text-[#39FF14]">Excellence</span>
             </h2>
             <div className="space-y-6 text-zinc-400 text-sm md:text-lg leading-relaxed">
               <p>
-                Zenith Performance Labs, powered by Innovox Software Solutions, is not just a gym. It is a high-octane ecosystem where human potential is recalibrated through biomechanical precision.
+                Zenith Performance Labs, by Innovox Software Solutions, is not just a gym. It is a complete high-performance ecosystem where your potential is upgraded with biomechanical precision.
               </p>
               <p>
-                We have moved beyond the traditional workout. Our environment is a blend of elite hardware and data-driven training, designed specifically for those who demand excellence in every fiber of their being.
+                We have gone beyond the regular workout setup. Here, advanced equipment meets data-driven coaching, built for people who want top-class results in every session.
               </p>
             </div>
           </motion.div>
@@ -56,10 +56,10 @@ export default function About() {
         {/* --- BOTTOM GRID: CORE VALUES --- */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
           {[
-            { icon: <Zap />, title: "Precision", desc: "Every rep is tracked; every machine is calibrated." },
-            { icon: <Target />, title: "Focus", desc: "A high-intensity atmosphere that demands your best." },
-            { icon: <Users />, title: "Elite Community", desc: "A network of high-performers and achievers." },
-            { icon: <Shield />, title: "Mastery", desc: "Constant progression is our only standard." },
+            { icon: <Zap />, title: "Precision", desc: "Every rep is tracked, and every machine is properly calibrated." },
+            { icon: <Target />, title: "Focus", desc: "A high-intensity atmosphere that brings out your best." },
+            { icon: <Users />, title: "Elite Community", desc: "A community of high-performers and achievers." },
+            { icon: <Shield />, title: "Mastery", desc: "Consistent progress is our standard." },
           ].map((item, idx) => (
             <motion.div 
               key={idx}
