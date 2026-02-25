@@ -4,8 +4,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import type { Variants } from 'framer-motion';
 import { Activity, BatteryCharging, Cpu, HardDrive, Layers, Workflow } from 'lucide-react';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
 
 export default function ServicesPage() {
   const services = [
@@ -53,10 +51,7 @@ export default function ServicesPage() {
   };
 
   return (
-    <main className="bg-black text-white min-h-screen selection:bg-[#39FF14] selection:text-black">
-      <Navbar />
-
-      <section className="pt-48 pb-32 px-4 sm:px-6">
+    <section id="services" className="bg-black text-white py-24 md:py-32 px-4 sm:px-6 selection:bg-[#39FF14] selection:text-black">
         <div className="max-w-7xl mx-auto">
           
           {/* Section Header */}
@@ -110,9 +105,6 @@ export default function ServicesPage() {
             ))}
           </div>
         </div>
-      </section>
-
-      <Footer />
-    </main>
+    </section>
   );
 }
