@@ -56,10 +56,10 @@ export default function About() {
         {/* --- BOTTOM GRID: CORE VALUES --- */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
           {[
-            { icon: <Zap />, title: "Precision", desc: "Every rep is tracked, and every machine is properly calibrated." },
-            { icon: <Target />, title: "Focus", desc: "A high-intensity atmosphere that brings out your best." },
-            { icon: <Users />, title: "Elite Community", desc: "A community of high-performers and achievers." },
-            { icon: <Shield />, title: "Mastery", desc: "Consistent progress is our standard." },
+            { icon: <Zap size={24} />, title: "Precision", desc: "Every rep is tracked, and every machine is properly calibrated." },
+            { icon: <Target size={24} />, title: "Focus", desc: "A high-intensity atmosphere that brings out your best." },
+            { icon: <Users size={24} />, title: "Elite Community", desc: "A community of high-performers and achievers." },
+            { icon: <Shield size={24} />, title: "Mastery", desc: "Consistent progress is our standard." },
           ].map((item, idx) => (
             <motion.div 
               key={idx}
@@ -70,7 +70,7 @@ export default function About() {
               className="p-6 md:p-10 rounded-[1.5rem] md:rounded-[2.5rem] bg-zinc-900/20 border border-white/5 hover:border-[#39FF14]/30 transition-all group"
             >
               <div className="w-10 h-10 md:w-14 md:h-14 bg-black rounded-xl md:rounded-2xl flex items-center justify-center mb-6 text-[#39FF14] group-hover:scale-110 transition-transform">
-                {React.cloneElement(item.icon as React.ReactElement, { size: 24 })}
+                {item.icon}
               </div>
               <h3 className="text-white font-black uppercase italic tracking-tighter text-lg md:text-xl mb-2">{item.title}</h3>
               <p className="text-zinc-500 text-[10px] md:text-xs leading-relaxed">{item.desc}</p>
