@@ -6,27 +6,27 @@ import { motion } from 'framer-motion';
 
 const reviews = [
   {
-    name: "Alex Rivera",
+    name: "Aarav Mehta",
     role: "Professional Athlete",
-    content: "The equipment here is next-level. I've never seen biomechanical machines this precise. Zenith changed my prep.",
+    content: "The equipment here is next-level. I have not seen biomechanical machines this precise before. Zenith changed my prep.",
     rating: 5
   },
   {
-    name: "Sarah Chen",
+    name: "Nisha Verma",
     role: "Fitness Enthusiast",
-    content: "The 24/7 access is a lifesaver for my schedule. It’s always clean, and the community is incredibly motivating.",
+    content: "The 24/7 access is perfect for my schedule. It is always clean, and the community is very motivating.",
     rating: 5
   },
   {
-    name: "Marcus Thorne",
+    name: "Rohit Kulkarni",
     role: "Powerlifter",
-    content: "Expert coaching that actually understands heavy lifting. I've added 50kg to my total since joining Zenith.",
+    content: "Expert coaching that really understands heavy lifting. I have added 50 kg to my total since joining Zenith.",
     rating: 5
   },
   {
-    name: "Elena Rodriguez",
+    name: "Priya Nair",
     role: "Yoga Instructor",
-    content: "The atmosphere is futuristic and clean. It’s more than a gym; it's where I come to push my absolute limits.",
+    content: "The atmosphere is futuristic and clean. It is more than a gym; this is where I come to push my limits.",
     rating: 5
   }
 ];
