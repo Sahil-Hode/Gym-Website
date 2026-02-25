@@ -20,7 +20,7 @@ export default function About() {
             className="relative group rounded-[2rem] md:rounded-[3rem] overflow-hidden aspect-square md:aspect-video lg:aspect-square border border-white/10"
           >
             <img 
-              src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070" 
+              src="/about.png" 
               alt="Zenith Performance" 
               className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
             />
