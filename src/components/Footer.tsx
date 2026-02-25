@@ -23,7 +23,7 @@ export default function Footer() {
               <span className="font-black italic tracking-tighter text-2xl text-white">ZENITH</span>
             </div>
             <p className="text-zinc-500 text-sm leading-relaxed mb-6">
-              The premier destination for high-performance athletes and individuals dedicated to physical excellence.
+              A trusted destination for high-performance athletes and anyone dedicated to physical excellence.
             </p>
             <div className="flex gap-4">
               {[Instagram, Twitter, Youtube, Facebook].map((Icon, i) => (
@@ -38,7 +38,7 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-xs">Quick Links</h4>
             <ul className="space-y-4 text-sm text-zinc-500">
-              {['Home', 'About-Us', 'Services', 'Experienced', 'Membership', 'Testimonials', 'Contact'].map((item) => (
+              {['Home', 'About Us', 'Services', 'Experience', 'Membership', 'Testimonials', 'Contact'].map((item) => (
                 <li key={item}>
                   <Link href="#" className="hover:text-white transition-colors">{item}</Link>
                 </li>
@@ -61,7 +61,7 @@ export default function Footer() {
           {/* Newsletter */}
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-xs">Stay Synced</h4>
-            <p className="text-zinc-500 text-sm mb-4">Receive performance tips and club updates.</p>
+            <p className="text-zinc-500 text-sm mb-4">Get performance tips and club updates.</p>
             <div className="relative">
               <input 
                 type="email" 
